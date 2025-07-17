@@ -1,0 +1,11 @@
+# ninja log v5
+10	5864	1752605438217453956	CMakeFiles/AI_BMT_GUI_Submitter.dir/main.cpp.o	b7d72982b75daa6d
+5864	6712	1752605439057433050	AI_BMT_GUI_Submitter	465a88779ca8aa3
+10	3686	1752605436040841599	CMakeFiles/run_classifier.dir/classification_ONNX.cpp.o	17ab716568f64eac
+5134	5553	1752605437904128426	run_classifier	70620f5b963efe07
+11	5134	1752605437487472149	CMakeFiles/run_classifier.dir/classification_DXNN.cpp.o	e02c850c4a528a7a
+21	4019	1752737705448949629	CMakeFiles/run_classifier.dir/classification_ONNX.cpp.o	17ab716568f64eac
+21	5376	1752737706805605049	CMakeFiles/run_classifier.dir/classification_DXNN.cpp.o	e02c850c4a528a7a
+5376	6030	1752737707455599660	run_classifier	70620f5b963efe07
+21	6091	1752737707518932468	CMakeFiles/AI_BMT_GUI_Submitter.dir/main.cpp.o	b7d72982b75daa6d
+6092	7165	1752737708585590291	AI_BMT_GUI_Submitter	465a88779ca8aa3

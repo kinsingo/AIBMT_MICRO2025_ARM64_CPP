@@ -19,6 +19,9 @@ private:
 public:
     AI_BMT_GUI_CALLER(shared_ptr<AI_BMT_Interface> interface, string modelPath);
     int call_BMT_GUI(int argc, char *argv[]);
+
+private:
+    void AutoQuitProgramForMICRO2025();
 };
 
 #endif // AI_BMT_GUI_CALLER_H
