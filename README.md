@@ -6,6 +6,12 @@ This guide helps you run model evaluations using the **AI-BMT** platform for the
 
 ---
 
+## (Optional) Open VSCode IDE
+You can start vscode at `AI_BMT_GUI_Submitter_Linux_ARM64_CPP` folder using comman below for convenience.
+```bash
+vscode .
+```
+
 ## 📂 1.`main.cpp`
 
 ### To test your "onnx" or "dxnn" model, choose corresponding class.
