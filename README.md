@@ -199,10 +199,9 @@ public:
 ## Step3) Build and Start BMT
 
 **1. Generate the Ninja build system using cmake**
-
 - Run the following command to remove existing cache
   ```bash
-rm -rf CMakeCache.txt CMakeFiles .ninja* build.ninja rules.ninja \
+  rm -rf CMakeCache.txt CMakeFiles .ninja* build.ninja rules.ninja \
        cmake_install.cmake compile_commands.json qtcsettings.cmake .qtc AI_BMT_GUI_Submitter run_classifier
   ```
 - Run the following command to execute CMake in the current directory (usually the build directory). This command will generate the Ninja build system based on the CMakeLists.txt file located in the parent directory. Once successfully executed, the project will be ready to be built using Ninja.
