@@ -45,7 +45,8 @@ int main(int argc, char *argv[])
 Navigate to the `build/` directory (cd build) and run the following commands to clean, rebuild, and launch the GUI:
 
 ```bash
-rm -rf CMakeCache.txt CMakeFiles AI_BMT_GUI_Submitter run_classifier
+rm -rf CMakeCache.txt CMakeFiles .ninja* build.ninja rules.ninja \
+       cmake_install.cmake compile_commands.json qtcsettings.cmake .qtc AI_BMT_GUI_Submitter run_classifier
 cmake -G "Ninja" ..
 export LD_LIBRARY_PATH=$(pwd)/lib
 cmake --build .
@@ -201,7 +202,8 @@ public:
 
 - Run the following command to remove existing cache
   ```bash
-  rm -rf CMakeCache.txt CMakeFiles AI_BMT_GUI_Submitter run_classifier
+rm -rf CMakeCache.txt CMakeFiles .ninja* build.ninja rules.ninja \
+       cmake_install.cmake compile_commands.json qtcsettings.cmake .qtc AI_BMT_GUI_Submitter run_classifier
   ```
 - Run the following command to execute CMake in the current directory (usually the build directory). This command will generate the Ninja build system based on the CMakeLists.txt file located in the parent directory. Once successfully executed, the project will be ready to be built using Ninja.
   ```bash
@@ -237,7 +239,8 @@ sudo apt install build-essential
 sudo apt-get install ninja-build
 sudo apt-get install libgl1 libgl1-mesa-dev
 sudo apt install unzip
-rm -rf CMakeCache.txt CMakeFiles AI_BMT_GUI_Submitter run_classifier
+rm -rf CMakeCache.txt CMakeFiles .ninja* build.ninja rules.ninja \
+       cmake_install.cmake compile_commands.json qtcsettings.cmake .qtc AI_BMT_GUI_Submitter run_classifier
 cmake -G "Ninja" ..
 export LD_LIBRARY_PATH=$(pwd)/lib
 cmake --build .
